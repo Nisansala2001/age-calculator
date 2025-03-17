@@ -12,9 +12,11 @@
         <form id="ageForm">
             <label for="dob">Enter your Date of Birth:</label>
             <input type="date" id="dob" required>
-            <button type="submit">Calculate Age</button>
+            <div id="error" class="error-message"></div>
+            <button type="submit" id="calculateBtn">Calculate Age</button>
+            <button type="button" id="clearBtn">Clear Data</button>
         </form>
-        <div id="result">
+        <div id="result" class="hidden">
             <h2>Your Age is: <span id="age"></span> years</h2>
         </div>
     </div>

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,16 +9,18 @@ body {
 }
 
 .container {
-    background-color: rgb(166, 166, 176);
-    padding: 20px;
+    background-color: yellow;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 500px;
+    width: 400px;
+   
 }
 
 h1 {
     font-size: 24px;
+    color: #333;
 }
 
 label {
@@ -29,7 +31,7 @@ label {
 
 input[type="date"] {
     padding: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     width: 100%;
     font-size: 16px;
     border-radius: 4px;
@@ -44,6 +46,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 5px;
 }
 
 button:hover {
@@ -52,4 +55,16 @@ button:hover {
 
 #result {
     margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
 }
